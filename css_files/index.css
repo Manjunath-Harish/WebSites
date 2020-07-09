@@ -1,0 +1,118 @@
+a {
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+}
+
+.mobile {
+    display: none;
+}
+
+header {
+    position: relative;
+    height: 60px;
+}
+
+.main-title {
+    position: absolute;
+    top: 0px;
+    left: 48%;
+    text-align: right;
+    font-family: monospace;
+    letter-spacing: .3em;
+    font-size: large;
+}
+
+.cart {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    text-align-last: right;
+    align-self: center;
+}
+
+.main-navigation {
+    height: 40px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+}
+
+.cart img {
+    height: 32px;
+    width: 32px;
+}
+
+.main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+    font-size: 13px;
+}
+
+.nav-1 {
+    padding-left: 5%;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.main-body .mens-outerwear,
+.ladies-outerwear {
+    grid-column: 1/3;
+}
+
+.main-body .mens-t-shirts {
+    grid-column: 1/2;
+}
+
+.main-body .ladies-t-shirts {
+    grid-column: 2/3;
+}
+
+.main-body article,
+.button {
+    text-align: center;
+    margin: 30px;
+}
+
+.main-body .button a {
+    border: solid #333;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-body a img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+    position: relative;
+}
+
+footer .demo {
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+    border: black solid;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    width: fit-content;
+}
+
+footer a {
+    color: grey;
+    font-size: 13px;
+}

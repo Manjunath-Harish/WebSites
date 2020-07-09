@@ -1,0 +1,90 @@
+a {
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+}
+
+header {
+    position: relative;
+    height: 60px;
+}
+
+.main-title {
+    position: absolute;
+    top: 0px;
+    left: 48%;
+    text-align: right;
+    font-family: monospace;
+    letter-spacing: .3em;
+    font-size: large;
+}
+
+.cart {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    text-align-last: right;
+    align-self: center;
+}
+
+.empty {
+    text-align: center;
+    margin-top: 10%;
+    color: grey;
+    font-size: large;
+}
+
+.empty img {
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+}
+
+.main-body {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: repeat(3, 200px);
+}
+
+.main-body img {
+    height: 100%;
+}
+
+.main-body .title {
+    align-self: center;
+}
+
+select {
+    border: none;
+    background: none;
+    width: 50px;
+}
+
+.quantity {
+    margin-right: 20px;
+}
+
+.demark {
+    margin-left: 10%;
+}
+
+.rate {
+    margin-right: 20px;
+}
+
+.total {
+    margin-top: 50px;
+    float: right;
+    margin-right: 10%;
+}
+
+input {
+    border: black solid 1px;
+    background: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}

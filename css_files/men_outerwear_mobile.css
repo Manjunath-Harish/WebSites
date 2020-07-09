@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .normal {
+        display: none;
+    }
+    .menu {
+        position: absolute;
+        top: 30%;
+        left: 0px;
+    }
+    .ladies-t-shirts .button a {
+        padding: 0;
+    }
+    .mens-t-shirts .button a {
+        padding: 0;
+    }
+    .mens-outerwear a {
+        display: none;
+    }
+    .main-body {
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 20%;
+    }
+    footer .demo {
+        left: 33%;
+    }
+}
